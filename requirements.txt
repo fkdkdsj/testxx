@@ -1,3 +1,4 @@
 Scrapy>=1.0.2
 Scrapyd>=1.2.0
 pyquery
+pymongo
