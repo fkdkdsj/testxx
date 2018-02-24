@@ -54,9 +54,9 @@ HTTPERROR_ALLOWED_CODES = [403, 400]
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-    'testxx.middlewares.TestxxDownloaderMiddleware': 543,
-}
+# DOWNLOADER_MIDDLEWARES = {
+#    'testxx.middlewares.TestxxDownloaderMiddleware': 543,
+# }
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -66,9 +66,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'testxx.pipelines.TestxxPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'testxx.pipelines.TestxxPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
